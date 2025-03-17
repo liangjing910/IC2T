@@ -31,13 +31,20 @@ Due to size constraints, only a sample of the IC2T dataset (dataset/ic2t_dataset
 ### Dataset Construction
 The script tinyllava/utils/process_dataset.py is designed for constructing the IC2T dataset with contextual examples. Specifically, this script: Generates textual embeddings using a pretrained DistilBERT model. Computes semantic similarity between dataset samples efficiently with FAISS.	Matches each data sample with its most semantically relevant contextual example.
 
-#### Usage
 To construct the contextualized dataset, execute:
 ```bash
 python tinyllava/utils/process_dataset.py
 ```
 By default, the script processes the file viscot_363k.json and outputs contextualized files (contextual_example_output_<dataset_name>.json).
 You can adjust the parameters batch_size and top_k within process_dataset.py to balance resource usage and dataset granularity.
+
+## Finetune
+After constructing the dataset following the above data format, you can finetune model TinyLLaVA-Phi-2-SigLIP-3.1B checkpoint by using lora.
+Replace data paths and output_dir with yours in scripts/train/custom_finetune_ic2t.sh
+Adjust your GPU ids (localhost) and per_device_train_batch_size in scripts/train/custom_finetune.sh.
+```bash
+bash scripts/train/custom_finetune_ic2t.sh
+```
 
 ## Continuous Updates
 🚀The **IC2T** codebase, datasets, and pretrained model weights will be continuously updated. Stay tuned for further improvements and releases!
