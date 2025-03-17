@@ -28,10 +28,10 @@ Due to size constraints, only a sample of the IC2T dataset (ic2t_dataset_sample.
 
 
 
-## Dataset Construction
+### Dataset Construction
 The script process_dataset.py, located in tinyllava/utils, is designed for constructing the IC2T dataset with contextual examples. Specifically, this script: Generates textual embeddings using a pretrained DistilBERT model. Computes semantic similarity between dataset samples efficiently with FAISS.	Matches each data sample with its most semantically relevant contextual example.
 
-### Usage
+#### Usage
 To construct the contextualized dataset, execute:
 ```bash
 python tinyllava/utils/process_dataset.py
