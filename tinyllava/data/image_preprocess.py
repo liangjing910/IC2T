@@ -9,7 +9,6 @@ from torchvision import transforms
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-# 可能imagepreprocess需要继承一个huggingface的图像处理类？提供from_pretrained方法
 
 class ImagePreprocess:
     def __init__(self, image_processor, data_args={}):
