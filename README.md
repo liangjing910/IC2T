@@ -5,6 +5,11 @@ This repository contains the official implementation of the paper "**IC2T: Embed
 
 **IC2T** is a novel multimodal reasoning framework designed to progressively optimize multimodal reasoning by integrating local visual details and global contextual features through a multi-round reasoning process. The framework significantly enhances model performance in complex multimodal tasks like Visual Question Answering (VQA) and text-image alignment.
 
+**Progressive Reasoning Process (Fig. 1):**
+![Fig. 1 Progressive reasoning process](images/fig1.png)
+
+**Architecture of IC2T (Fig. 2):**
+![Fig. 2 Architecture of IC2T](images/fig2.png)
 
 
 
