@@ -24,12 +24,12 @@ pip install -e
 ```
 
 ## Dataset
-Due to size constraints, only a sample of the IC2T dataset (ic2t_dataset_sample.json) is provided in this repository. The complete dataset used in the paper is too large for direct inclusion. Please refer to the sample file for dataset structure and format. For the complete dataset, please contact the authors directly. The complete dataset will be made available via an external link shortly.
+Due to size constraints, only a sample of the IC2T dataset (dataset/ic2t_dataset_sample.json) is provided in this repository. The complete dataset used in the paper is too large for direct inclusion. Please refer to the sample file for dataset structure and format. For the complete dataset, please contact the authors directly. The complete dataset will be made available via an external link shortly.
 
 
 
 ### Dataset Construction
-The script process_dataset.py, located in tinyllava/utils, is designed for constructing the IC2T dataset with contextual examples. Specifically, this script: Generates textual embeddings using a pretrained DistilBERT model. Computes semantic similarity between dataset samples efficiently with FAISS.	Matches each data sample with its most semantically relevant contextual example.
+The script tinyllava/utils/process_dataset.py is designed for constructing the IC2T dataset with contextual examples. Specifically, this script: Generates textual embeddings using a pretrained DistilBERT model. Computes semantic similarity between dataset samples efficiently with FAISS.	Matches each data sample with its most semantically relevant contextual example.
 
 #### Usage
 To construct the contextualized dataset, execute:
