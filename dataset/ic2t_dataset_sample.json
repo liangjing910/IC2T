@@ -1,0 +1,1149 @@
+[
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169188,
+        "image": [
+            "gqa/images/2336069.jpg",
+            "gqa/images/2331819.jpg",
+            "gqa/images/2336069.jpg",
+            "gqa/images/2336069.jpg###[0.518, 0.544, 0.568, 0.704]",
+            "gqa/images/2331819.jpg",
+            "gqa/images/2331819.jpg###[0.428, 0.124, 0.866, 0.872]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is wearing a shirt? The bounding box coordinate of the region that can help you answer the question better is [0.518, 0.544, 0.568, 0.704].\n<image>\nWho is wearing a shirt? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.428, 0.124, 0.866, 0.872]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing a shirt? According to the original image and local detail image analysis, the answer is pedestrians.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing a shirt? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "girl"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169189,
+        "image": [
+            "gqa/images/2343489.jpg",
+            "gqa/images/2324496.jpg",
+            "gqa/images/2343489.jpg",
+            "gqa/images/2343489.jpg###[0.154, 0.444, 0.768, 0.870]",
+            "gqa/images/2324496.jpg",
+            "gqa/images/2324496.jpg###[0.000, 0.324, 1.000, 0.876]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho do you think is sleeping on the bed? The bounding box coordinate of the region that can help you answer the question better is [0.154, 0.444, 0.768, 0.870].\n<image>\nWhat do you think is he sleeping in? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.000, 0.324, 1.000, 0.876]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho do you think is sleeping on the bed? According to the original image and local detail image analysis, the answer is boy.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat do you think is he sleeping in? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "bed"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169190,
+        "image": [
+            "gqa/images/2323719.jpg",
+            "gqa/images/2324496.jpg",
+            "gqa/images/2323719.jpg",
+            "gqa/images/2323719.jpg###[0.000, 0.288, 1.000, 0.832]",
+            "gqa/images/2324496.jpg",
+            "gqa/images/2324496.jpg###[0.000, 0.324, 1.000, 0.876]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the item of furniture that he is lying on? The bounding box coordinate of the region that can help you answer the question better is [0.000, 0.288, 1.000, 0.832].\n<image>\nWhat is the piece of furniture that he is sleeping in? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.000, 0.324, 1.000, 0.876]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the item of furniture that he is lying on? According to the original image and local detail image analysis, the answer is bed.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the piece of furniture that he is sleeping in? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "bed"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169191,
+        "image": [
+            "gqa/images/2410353.jpg",
+            "gqa/images/2410353.jpg",
+            "gqa/images/2410353.jpg",
+            "gqa/images/2410353.jpg###[0.546, 0.540, 0.904, 0.740]",
+            "gqa/images/2410353.jpg",
+            "gqa/images/2410353.jpg###[0.546, 0.540, 0.904, 0.740]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat kind of furniture is to the right of the chair? The bounding box coordinate of the region that can help you answer the question better is [0.546, 0.540, 0.904, 0.740].\n<image>\nWhat kind of furniture is to the right of the chair? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.546, 0.540, 0.904, 0.740]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of furniture is to the right of the chair? According to the original image and local detail image analysis, the answer is sofa.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of furniture is to the right of the chair? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "sofa"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169192,
+        "image": [
+            "gqa/images/2368304.jpg",
+            "gqa/images/2378822.jpg",
+            "gqa/images/2368304.jpg",
+            "gqa/images/2368304.jpg###[0.124, 0.002, 0.328, 0.328]",
+            "gqa/images/2378822.jpg",
+            "gqa/images/2378822.jpg###[0.196, 0.088, 0.602, 0.312]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich kind of furniture are the mugs sitting on? The bounding box coordinate of the region that can help you answer the question better is [0.124, 0.002, 0.328, 0.328].\n<image>\nWhich kind of furniture are the cups hanging on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.196, 0.088, 0.602, 0.312]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of furniture are the mugs sitting on? According to the original image and local detail image analysis, the answer is shelf.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of furniture are the cups hanging on? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "cabinet"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169193,
+        "image": [
+            "gqa/images/2347897.jpg",
+            "gqa/images/2355018.jpg",
+            "gqa/images/2347897.jpg",
+            "gqa/images/2347897.jpg###[0.500, 0.420, 0.784, 0.768]",
+            "gqa/images/2355018.jpg",
+            "gqa/images/2355018.jpg###[0.340, 0.218, 0.798, 0.736]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is sitting on the bench that is on the right side? The bounding box coordinate of the region that can help you answer the question better is [0.500, 0.420, 0.784, 0.768].\n<image>\nWhat animal sits in the bench that is on the right side? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.340, 0.218, 0.798, 0.736]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is sitting on the bench that is on the right side? According to the original image and local detail image analysis, the answer is man.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat animal sits in the bench that is on the right side? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "bird"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169194,
+        "image": [
+            "gqa/images/2365698.jpg",
+            "gqa/images/2355658.jpg",
+            "gqa/images/2365698.jpg",
+            "gqa/images/2365698.jpg###[0.016, 0.348, 1.000, 0.874]",
+            "gqa/images/2355658.jpg",
+            "gqa/images/2355658.jpg###[0.784, 0.384, 1.000, 0.604]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat are the children on? The bounding box coordinate of the region that can help you answer the question better is [0.016, 0.348, 1.000, 0.874].\n<image>\nWhat are the children on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.784, 0.384, 1.000, 0.604]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat are the children on? According to the original image and local detail image analysis, the answer is sofa.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat are the children on? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "rock"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169195,
+        "image": [
+            "gqa/images/2375344.jpg",
+            "gqa/images/2355658.jpg",
+            "gqa/images/2375344.jpg",
+            "gqa/images/2375344.jpg###[0.242, 0.124, 0.852, 0.872]",
+            "gqa/images/2355658.jpg",
+            "gqa/images/2355658.jpg###[0.808, 0.450, 0.904, 0.548]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is on the rock? The bounding box coordinate of the region that can help you answer the question better is [0.242, 0.124, 0.852, 0.872].\n<image>\nWho is on the rock? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.808, 0.450, 0.904, 0.548]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is on the rock? According to the original image and local detail image analysis, the answer is girl.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is on the rock? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "children"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169196,
+        "image": [
+            "gqa/images/2362621.jpg",
+            "gqa/images/2396833.jpg",
+            "gqa/images/2362621.jpg",
+            "gqa/images/2362621.jpg###[0.052, 0.754, 0.130, 0.824]",
+            "gqa/images/2396833.jpg",
+            "gqa/images/2396833.jpg###[0.594, 0.576, 0.648, 0.696]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the man in the street wearing? The bounding box coordinate of the region that can help you answer the question better is [0.052, 0.754, 0.130, 0.824].\n<image>\nWhat is the man in the street wearing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.594, 0.576, 0.648, 0.696]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the man in the street wearing? According to the original image and local detail image analysis, the answer is shoe.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the man in the street wearing? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "pants"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169197,
+        "image": [
+            "gqa/images/2337699.jpg",
+            "gqa/images/2320386.jpg",
+            "gqa/images/2337699.jpg",
+            "gqa/images/2337699.jpg###[0.512, 0.526, 0.560, 0.590]",
+            "gqa/images/2320386.jpg",
+            "gqa/images/2320386.jpg###[0.244, 0.546, 0.304, 0.600]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich kind of animal is in the field? The bounding box coordinate of the region that can help you answer the question better is [0.512, 0.526, 0.560, 0.590].\n<image>\nWhich kind of animal is in the field? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.244, 0.546, 0.304, 0.600]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of animal is in the field? According to the original image and local detail image analysis, the answer is cow.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of animal is in the field? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "horse"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169198,
+        "image": [
+            "gqa/images/2362791.jpg",
+            "gqa/images/2320386.jpg",
+            "gqa/images/2362791.jpg",
+            "gqa/images/2362791.jpg###[0.282, 0.322, 0.368, 0.374]",
+            "gqa/images/2320386.jpg",
+            "gqa/images/2320386.jpg###[0.244, 0.546, 0.304, 0.600]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the animal that is eating from the field? The bounding box coordinate of the region that can help you answer the question better is [0.282, 0.322, 0.368, 0.374].\n<image>\nWhat is the animal that is eating from the field? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.244, 0.546, 0.304, 0.600]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the animal that is eating from the field? According to the original image and local detail image analysis, the answer is zebra.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the animal that is eating from the field? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "horse"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169199,
+        "image": [
+            "gqa/images/2407032.jpg",
+            "gqa/images/2323590.jpg",
+            "gqa/images/2407032.jpg",
+            "gqa/images/2407032.jpg###[0.874, 0.124, 1.000, 0.460]",
+            "gqa/images/2323590.jpg",
+            "gqa/images/2323590.jpg###[0.498, 0.290, 0.992, 0.848]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat device is to the right of the box? The bounding box coordinate of the region that can help you answer the question better is [0.874, 0.124, 1.000, 0.460].\n<image>\nWhat is the device that is to the right of the box? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.498, 0.290, 0.992, 0.848]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat device is to the right of the box? According to the original image and local detail image analysis, the answer is computer.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the device that is to the right of the box? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "laptop"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169200,
+        "image": [
+            "gqa/images/2398968.jpg",
+            "gqa/images/2411272.jpg",
+            "gqa/images/2398968.jpg",
+            "gqa/images/2398968.jpg###[0.382, 0.180, 0.704, 0.480]",
+            "gqa/images/2411272.jpg",
+            "gqa/images/2411272.jpg###[0.514, 0.660, 0.854, 0.778]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the fruit that is lying on the plate called? The bounding box coordinate of the region that can help you answer the question better is [0.382, 0.180, 0.704, 0.480].\n<image>\nWhat is the fruit that is on the plate called? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.514, 0.660, 0.854, 0.778]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the fruit that is lying on the plate called? According to the original image and local detail image analysis, the answer is apple.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the fruit that is on the plate called? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "banana"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169201,
+        "image": [
+            "gqa/images/2341019.jpg",
+            "gqa/images/2383566.jpg",
+            "gqa/images/2341019.jpg",
+            "gqa/images/2341019.jpg###[0.030, 0.024, 0.964, 0.970]",
+            "gqa/images/2383566.jpg",
+            "gqa/images/2383566.jpg###[0.000, 0.454, 0.996, 0.870]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat kind of furniture is the napkin on? The bounding box coordinate of the region that can help you answer the question better is [0.030, 0.024, 0.964, 0.970].\n<image>\nWhat kind of furniture is the napkin on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.000, 0.454, 0.996, 0.870]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of furniture is the napkin on? According to the original image and local detail image analysis, the answer is desk.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of furniture is the napkin on? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "desk"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169202,
+        "image": [
+            "gqa/images/2336069.jpg",
+            "gqa/images/2412885.jpg",
+            "gqa/images/2336069.jpg",
+            "gqa/images/2336069.jpg###[0.518, 0.544, 0.568, 0.704]",
+            "gqa/images/2412885.jpg",
+            "gqa/images/2412885.jpg###[0.382, 0.268, 0.748, 0.830]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is wearing a shirt? The bounding box coordinate of the region that can help you answer the question better is [0.518, 0.544, 0.568, 0.704].\n<image>\nWho is wearing a shirt? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.382, 0.268, 0.748, 0.830]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing a shirt? According to the original image and local detail image analysis, the answer is pedestrians.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing a shirt? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "man"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169203,
+        "image": [
+            "gqa/images/792.jpg",
+            "gqa/images/2361345.jpg",
+            "gqa/images/792.jpg",
+            "gqa/images/792.jpg###[0.645, 0.334, 0.892, 0.459]",
+            "gqa/images/2361345.jpg",
+            "gqa/images/2361345.jpg###[0.170, 0.534, 0.832, 0.844]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhere is the tree? The bounding box coordinate of the region that can help you answer the question better is [0.645, 0.334, 0.892, 0.459].\n<image>\nWhere is the tree? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.170, 0.534, 0.832, 0.844]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhere is the tree? According to the original image and local detail image analysis, the answer is balcony.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhere is the tree? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "grass"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169204,
+        "image": [
+            "gqa/images/2368658.jpg",
+            "gqa/images/2392589.jpg",
+            "gqa/images/2368658.jpg",
+            "gqa/images/2368658.jpg###[0.480, 0.522, 0.568, 0.612]",
+            "gqa/images/2392589.jpg",
+            "gqa/images/2392589.jpg###[0.632, 0.486, 0.860, 0.614]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat animal is on top of the bed? The bounding box coordinate of the region that can help you answer the question better is [0.480, 0.522, 0.568, 0.612].\n<image>\nWhat animal is in front of the bed post? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.632, 0.486, 0.860, 0.614]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat animal is on top of the bed? According to the original image and local detail image analysis, the answer is bear.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat animal is in front of the bed post? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "dog"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169205,
+        "image": [
+            "gqa/images/2383569.jpg",
+            "gqa/images/2374982.jpg",
+            "gqa/images/2383569.jpg",
+            "gqa/images/2383569.jpg###[0.110, 0.142, 0.164, 0.218]",
+            "gqa/images/2374982.jpg",
+            "gqa/images/2374982.jpg###[0.856, 0.534, 0.880, 0.558]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the person to the left of the bicycles wearing? The bounding box coordinate of the region that can help you answer the question better is [0.110, 0.142, 0.164, 0.218].\n<image>\nWhat is the pedestrian to the right of the scooters wearing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.856, 0.534, 0.880, 0.558]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the person to the left of the bicycles wearing? According to the original image and local detail image analysis, the answer is jeans.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the pedestrian to the right of the scooters wearing? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "bag"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169206,
+        "image": [
+            "gqa/images/326.jpg",
+            "gqa/images/2374982.jpg",
+            "gqa/images/326.jpg",
+            "gqa/images/326.jpg###[0.534, 0.440, 0.614, 0.642]",
+            "gqa/images/2374982.jpg",
+            "gqa/images/2374982.jpg###[0.842, 0.498, 0.886, 0.602]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is wearing the bag? The bounding box coordinate of the region that can help you answer the question better is [0.534, 0.440, 0.614, 0.642].\n<image>\nWho is wearing the bag? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.842, 0.498, 0.886, 0.602]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing the bag? According to the original image and local detail image analysis, the answer is woman.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing the bag? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "pedestrian"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169207,
+        "image": [
+            "gqa/images/2344776.jpg",
+            "gqa/images/2344776.jpg",
+            "gqa/images/2344776.jpg",
+            "gqa/images/2344776.jpg###[0.200, 0.536, 0.484, 0.870]",
+            "gqa/images/2344776.jpg",
+            "gqa/images/2344776.jpg###[0.200, 0.536, 0.484, 0.870]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat kind of furniture is to the left of the oven? The bounding box coordinate of the region that can help you answer the question better is [0.200, 0.536, 0.484, 0.870].\n<image>\nWhat kind of furniture is to the left of the oven? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.200, 0.536, 0.484, 0.870]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of furniture is to the left of the oven? According to the original image and local detail image analysis, the answer is cabinets.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of furniture is to the left of the oven? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "cabinets"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169208,
+        "image": [
+            "gqa/images/2347282.jpg",
+            "gqa/images/2344776.jpg",
+            "gqa/images/2347282.jpg",
+            "gqa/images/2347282.jpg###[0.392, 0.698, 0.688, 0.830]",
+            "gqa/images/2344776.jpg",
+            "gqa/images/2344776.jpg###[0.200, 0.536, 0.484, 0.870]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich kind of furniture is to the left of the oven? The bounding box coordinate of the region that can help you answer the question better is [0.392, 0.698, 0.688, 0.830].\n<image>\nWhich kind of furniture is to the left of the oven? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.200, 0.536, 0.484, 0.870]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of furniture is to the left of the oven? According to the original image and local detail image analysis, the answer is cabinet.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of furniture is to the left of the oven? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "cabinets"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169209,
+        "image": [
+            "gqa/images/2404115.jpg",
+            "gqa/images/2393335.jpg",
+            "gqa/images/2404115.jpg",
+            "gqa/images/2404115.jpg###[0.510, 0.246, 0.918, 0.752]",
+            "gqa/images/2393335.jpg",
+            "gqa/images/2393335.jpg###[0.402, 0.198, 0.832, 0.816]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat animal is in front of the grass? The bounding box coordinate of the region that can help you answer the question better is [0.510, 0.246, 0.918, 0.752].\n<image>\nWhat animal is in front of the grass? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.402, 0.198, 0.832, 0.816]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat animal is in front of the grass? According to the original image and local detail image analysis, the answer is giraffe.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat animal is in front of the grass? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "giraffe"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169210,
+        "image": [
+            "gqa/images/2321342.jpg",
+            "gqa/images/2321342.jpg",
+            "gqa/images/2321342.jpg",
+            "gqa/images/2321342.jpg###[0.666, 0.620, 0.726, 0.820]",
+            "gqa/images/2321342.jpg",
+            "gqa/images/2321342.jpg###[0.620, 0.616, 0.678, 0.792]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is watching the animal which is running on the grass? The bounding box coordinate of the region that can help you answer the question better is [0.666, 0.620, 0.726, 0.820].\n<image>\nWho is watching the dog that is running on the grass? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.620, 0.616, 0.678, 0.792]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is watching the animal which is running on the grass? According to the original image and local detail image analysis, the answer is child.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is watching the dog that is running on the grass? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "child"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169211,
+        "image": [
+            "gqa/images/2355927.jpg",
+            "gqa/images/2392577.jpg",
+            "gqa/images/2355927.jpg",
+            "gqa/images/2355927.jpg###[0.000, 0.166, 0.998, 0.652]",
+            "gqa/images/2392577.jpg",
+            "gqa/images/2392577.jpg###[0.422, 0.418, 0.518, 0.534]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat's the bike in front of? The bounding box coordinate of the region that can help you answer the question better is [0.000, 0.166, 0.998, 0.652].\n<image>\nWhat's the bike in front of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.422, 0.418, 0.518, 0.534]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat's the bike in front of? According to the original image and local detail image analysis, the answer is fence.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat's the bike in front of? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "parking meter"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169212,
+        "image": [
+            "gqa/images/2392577.jpg",
+            "gqa/images/2392577.jpg",
+            "gqa/images/2392577.jpg",
+            "gqa/images/2392577.jpg###[0.422, 0.418, 0.518, 0.534]",
+            "gqa/images/2392577.jpg",
+            "gqa/images/2392577.jpg###[0.422, 0.418, 0.518, 0.534]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the bike in front of? The bounding box coordinate of the region that can help you answer the question better is [0.422, 0.418, 0.518, 0.534].\n<image>\nWhat is the bike in front of? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.422, 0.418, 0.518, 0.534]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the bike in front of? According to the original image and local detail image analysis, the answer is parking meter.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the bike in front of? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "parking meter"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169213,
+        "image": [
+            "gqa/images/2366991.jpg",
+            "gqa/images/2408445.jpg",
+            "gqa/images/2366991.jpg",
+            "gqa/images/2366991.jpg###[0.156, 0.354, 0.442, 0.732]",
+            "gqa/images/2408445.jpg",
+            "gqa/images/2408445.jpg###[0.422, 0.412, 0.478, 0.562]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is holding the bat? The bounding box coordinate of the region that can help you answer the question better is [0.156, 0.354, 0.442, 0.732].\n<image>\nWho is holding the bat? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.422, 0.412, 0.478, 0.562]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is holding the bat? According to the original image and local detail image analysis, the answer is man.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is holding the bat? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "child"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169214,
+        "image": [
+            "gqa/images/2329353.jpg",
+            "gqa/images/2364870.jpg",
+            "gqa/images/2329353.jpg",
+            "gqa/images/2329353.jpg###[0.046, 0.134, 0.502, 0.280]",
+            "gqa/images/2364870.jpg",
+            "gqa/images/2364870.jpg###[0.238, 0.182, 0.280, 0.244]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhich kind of fast food is on the tray? The bounding box coordinate of the region that can help you answer the question better is [0.046, 0.134, 0.502, 0.280].\n<image>\nWhich kind of fast food is on the tray? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.238, 0.182, 0.280, 0.244]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of fast food is on the tray? According to the original image and local detail image analysis, the answer is pizza.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhich kind of fast food is on the tray? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "fries"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169215,
+        "image": [
+            "gqa/images/2329283.jpg",
+            "gqa/images/2369454.jpg",
+            "gqa/images/2329283.jpg",
+            "gqa/images/2329283.jpg###[0.228, 0.556, 0.280, 0.604]",
+            "gqa/images/2369454.jpg",
+            "gqa/images/2369454.jpg###[0.002, 0.376, 0.254, 0.738]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the person to the left of the bottle wearing? The bounding box coordinate of the region that can help you answer the question better is [0.228, 0.556, 0.280, 0.604].\n<image>\nWhat is the person to the left of the bottle wearing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.002, 0.376, 0.254, 0.738]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the person to the left of the bottle wearing? According to the original image and local detail image analysis, the answer is helmet.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the person to the left of the bottle wearing? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "shirt"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169216,
+        "image": [
+            "gqa/images/2360127.jpg",
+            "gqa/images/2404212.jpg",
+            "gqa/images/2360127.jpg",
+            "gqa/images/2360127.jpg###[0.530, 0.472, 0.634, 0.704]",
+            "gqa/images/2404212.jpg",
+            "gqa/images/2404212.jpg###[0.378, 0.550, 0.438, 0.674]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the man to the left of the pedestrian wearing? The bounding box coordinate of the region that can help you answer the question better is [0.530, 0.472, 0.634, 0.704].\n<image>\nWhat is the man to the left of the pedestrians wearing? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.378, 0.550, 0.438, 0.674]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the man to the left of the pedestrian wearing? According to the original image and local detail image analysis, the answer is jeans.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the man to the left of the pedestrians wearing? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "coat"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169217,
+        "image": [
+            "gqa/images/2350892.jpg",
+            "gqa/images/2369454.jpg",
+            "gqa/images/2350892.jpg",
+            "gqa/images/2350892.jpg###[0.824, 0.602, 0.992, 0.688]",
+            "gqa/images/2369454.jpg",
+            "gqa/images/2369454.jpg###[0.264, 0.548, 0.338, 0.590]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the person to the right of the bottle holding? The bounding box coordinate of the region that can help you answer the question better is [0.824, 0.602, 0.992, 0.688].\n<image>\nWhat is the person that is to the left of the bottle holding? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.264, 0.548, 0.338, 0.590]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the person to the right of the bottle holding? According to the original image and local detail image analysis, the answer is controller.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the person that is to the left of the bottle holding? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "controller"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169218,
+        "image": [
+            "gqa/images/2408708.jpg",
+            "gqa/images/2366061.jpg",
+            "gqa/images/2408708.jpg",
+            "gqa/images/2408708.jpg###[0.784, 0.432, 0.986, 0.532]",
+            "gqa/images/2366061.jpg",
+            "gqa/images/2366061.jpg###[0.180, 0.520, 0.390, 0.726]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the item of furniture that the TV is in? The bounding box coordinate of the region that can help you answer the question better is [0.784, 0.432, 0.986, 0.532].\n<image>\nWhat is the item of furniture that the television is on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.180, 0.520, 0.390, 0.726]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the item of furniture that the TV is in? According to the original image and local detail image analysis, the answer is cabinet.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the item of furniture that the television is on? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "cabinet"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169219,
+        "image": [
+            "gqa/images/2399504.jpg",
+            "gqa/images/2366061.jpg",
+            "gqa/images/2399504.jpg",
+            "gqa/images/2399504.jpg###[0.250, 0.000, 0.582, 0.076]",
+            "gqa/images/2366061.jpg",
+            "gqa/images/2366061.jpg###[0.180, 0.520, 0.390, 0.726]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat item of furniture is the television on? The bounding box coordinate of the region that can help you answer the question better is [0.250, 0.000, 0.582, 0.076].\n<image>\nWhat item of furniture is the television on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.180, 0.520, 0.390, 0.726]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat item of furniture is the television on? According to the original image and local detail image analysis, the answer is shelf.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat item of furniture is the television on? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "cabinet"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169220,
+        "image": [
+            "gqa/images/918.jpg",
+            "gqa/images/2389680.jpg",
+            "gqa/images/918.jpg",
+            "gqa/images/918.jpg###[0.201, 0.485, 0.770, 0.594]",
+            "gqa/images/2389680.jpg",
+            "gqa/images/2389680.jpg###[0.082, 0.546, 0.386, 0.722]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat is the statue on? The bounding box coordinate of the region that can help you answer the question better is [0.201, 0.485, 0.770, 0.594].\n<image>\nWhat is this statue on? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.082, 0.546, 0.386, 0.722]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is the statue on? According to the original image and local detail image analysis, the answer is counter.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat is this statue on? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "bench"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169221,
+        "image": [
+            "gqa/images/2327810.jpg",
+            "gqa/images/2328844.jpg",
+            "gqa/images/2327810.jpg",
+            "gqa/images/2327810.jpg###[0.310, 0.032, 0.672, 0.996]",
+            "gqa/images/2328844.jpg",
+            "gqa/images/2328844.jpg###[0.218, 0.000, 0.832, 0.832]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is wearing socks? The bounding box coordinate of the region that can help you answer the question better is [0.310, 0.032, 0.672, 0.996].\n<image>\nWho is wearing socks? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.218, 0.000, 0.832, 0.832]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing socks? According to the original image and local detail image analysis, the answer is boy.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing socks? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "man"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169222,
+        "image": [
+            "gqa/images/2374440.jpg",
+            "gqa/images/2387210.jpg",
+            "gqa/images/2374440.jpg",
+            "gqa/images/2374440.jpg###[0.400, 0.174, 0.580, 0.738]",
+            "gqa/images/2387210.jpg",
+            "gqa/images/2387210.jpg###[0.304, 0.370, 0.598, 0.726]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWho is wearing the coat? The bounding box coordinate of the region that can help you answer the question better is [0.400, 0.174, 0.580, 0.738].\n<image>\nWho is wearing the coat? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.304, 0.370, 0.598, 0.726]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing the coat? According to the original image and local detail image analysis, the answer is girl.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWho is wearing the coat? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "man"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169223,
+        "image": [
+            "gqa/images/2392476.jpg",
+            "gqa/images/2376946.jpg",
+            "gqa/images/2392476.jpg",
+            "gqa/images/2392476.jpg###[0.344, 0.366, 0.378, 0.428]",
+            "gqa/images/2376946.jpg",
+            "gqa/images/2376946.jpg###[0.424, 0.356, 0.514, 0.522]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhat kind of vegetable is on the plate? The bounding box coordinate of the region that can help you answer the question better is [0.344, 0.366, 0.378, 0.428].\n<image>\nWhat kind of vegetable is on the plate? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.424, 0.356, 0.514, 0.522]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of vegetable is on the plate? According to the original image and local detail image analysis, the answer is herb.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhat kind of vegetable is on the plate? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "carrot"
+            }
+        ]
+    },
+    {
+        "dataset": "gqa",
+        "split": "train",
+        "question_id": 169224,
+        "image": [
+            "gqa/images/2329797.jpg",
+            "gqa/images/2339464.jpg",
+            "gqa/images/2329797.jpg",
+            "gqa/images/2329797.jpg###[0.000, 0.542, 0.998, 0.832]",
+            "gqa/images/2339464.jpg",
+            "gqa/images/2339464.jpg###[0.000, 0.398, 1.000, 0.874]"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nWhere is the elephant walking? The bounding box coordinate of the region that can help you answer the question better is [0.000, 0.542, 0.998, 0.832].\n<image>\nWhere is the elephant walking? Please provide the bounding box coordinate of the region that can help you answer the question better."
+            },
+            {
+                "from": "gpt",
+                "value": "[0.000, 0.398, 1.000, 0.874]"
+            },
+            {
+                "from": "human",
+                "value": "<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhere is the elephant walking? According to the original image and local detail image analysis, the answer is path.\n<image>\nThis image is the original image.\n<image>\nThis image is the local detail image.\nWhere is the elephant walking? Please answer the question based on the original image and local detail image."
+            },
+            {
+                "from": "gpt",
+                "value": "street"
+            }
+        ]
+    }
+  ]
