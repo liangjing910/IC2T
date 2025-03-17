@@ -39,6 +39,14 @@ python tinyllava/utils/process_dataset.py
 By default, the script processes the file viscot_363k.json and outputs contextualized files (contextual_example_output_<dataset_name>.json).
 You can adjust the parameters batch_size and top_k within process_dataset.py to balance resource usage and dataset granularity.
 
+## Custom Finetune
+After constructing the dataset following the above data format, you can finetune model TinyLLaVA-Phi-2-SigLIP-3.1B checkpoint by using lora.
+Replace data paths and output_dir with yours in scripts/train/custom_finetune_ic2t.sh
+Adjust your GPU ids (localhost) and per_device_train_batch_size in scripts/train/custom_finetune.sh.
+```bash
+bash scripts/train/custom_finetune_ic2t.sh
+```
+
 ## Continuous Updates
 🚀The **IC2T** codebase, datasets, and pretrained model weights will be continuously updated. Stay tuned for further improvements and releases!
 
