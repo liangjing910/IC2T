@@ -25,3 +25,10 @@ pip install -e
 
 ## Dataset
 Due to size constraints, only a sample of the IC2T dataset (ic2t_dataset_sample.json) is provided in this repository. The complete dataset used in the paper is too large for direct inclusion. Please refer to the sample file for dataset structure and format. For the complete dataset, please contact the authors directly. The complete dataset will be made available via an external link shortly.
+
+
+🚀 **Continuous Updates**
+The **IC2T** codebase, datasets, and pretrained model weights will be continuously updated. Stay tuned for further improvements and releases!
+
+## Acknowledgments
+This implementation is based on the [TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory). We gratefully acknowledge their contribution.
